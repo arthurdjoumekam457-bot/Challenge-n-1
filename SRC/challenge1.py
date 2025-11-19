@@ -40,7 +40,7 @@ def ask_available_time():
     minutes = hours * 60 * 10
     return minute
 def show_summary(chosen, used, available_minutes, metric):
-    print("\n--- Résumé ---")
+    print("\n--- Résumé ----")
     if chosen == []:
         print("Aucune sélection.")
     else:
