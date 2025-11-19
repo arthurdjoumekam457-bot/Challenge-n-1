@@ -60,6 +60,6 @@ def main()
     data = normalize_items(RAW_ITEMS)
     chosen, used = pick_items(data, avaiable_minutes)
     metric = compute_metric(chosen, avail)
-    show_summary(chosen, used, avail, metric)
+    show_summary(chosen, used, available, metric)
 if __name__ == "__main__":
     main()
